@@ -12,4 +12,5 @@ fun task3() {
    print the results
   OUTPUT area of triangle = 35 meters square
    */
+
 }

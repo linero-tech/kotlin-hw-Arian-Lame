@@ -12,4 +12,5 @@ fun task2() {
     print the results
    OUTPUT area = 250cm
     */
+
 }
