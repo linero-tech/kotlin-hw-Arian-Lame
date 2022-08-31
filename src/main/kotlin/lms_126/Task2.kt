@@ -1,8 +1,7 @@
 package lms_126
 
 fun task2() {
-
-    /*
+/*
     INPUT length of rectangle
     //  in this case Length is 10cm
     INPUT Width of rectangle
@@ -12,5 +11,4 @@ fun task2() {
     print the results
    OUTPUT area = 250cm
     */
-
 }

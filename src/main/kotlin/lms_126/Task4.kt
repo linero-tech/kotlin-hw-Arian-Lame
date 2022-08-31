@@ -10,5 +10,4 @@ fun task4() {
             Print the results
     Output Y
 */
-
 }
