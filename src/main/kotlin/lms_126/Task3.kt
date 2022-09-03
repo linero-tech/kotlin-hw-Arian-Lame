@@ -10,7 +10,7 @@ fun task3() {
    get the area of triangle
    // * base 14 & Length 5 = 70 and diveded by 2.
    print the results
-  OUTPUT area of triangle = 35 meters square
+   OUTPUT area of triangle = 35 meters square
    */
 
 }

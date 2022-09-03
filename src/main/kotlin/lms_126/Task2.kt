@@ -3,7 +3,8 @@ package lms_126
 fun task2() {
 /*
     INPUT length of rectangle
-    //  in this case Length is 10cm
+
+   //  in this case Length is 10cm
     INPUT Width of rectangle
     // in this case Width is 25cm
     Get the area of rectagle
