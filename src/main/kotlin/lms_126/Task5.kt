@@ -4,6 +4,7 @@ fun task5() {
 
     /*
 INPUT FOR Numbers = 1 to 8
+1 is = 8
 IF X is = to 1 OUTPUT Monday
 IF X is = to 2 OUTPUT Tuesday
 IF X is = to 3 OUTPUT Wednesday
