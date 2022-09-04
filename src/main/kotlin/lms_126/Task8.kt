@@ -2,11 +2,15 @@ package lms_126
 
 fun task8() {
     /*
-If X is multiple of 3, print Foo
-If X is multiple of 5, print Bar
-If X is multiple of both 3 and 5, print FooBar
-If X is not multiple of 3 or 5, print Qix
+    INPUT X
+    IF X is * 3 Print Foo
+    OUTPUT Foo
+    IF X is * 5 Print Bar
+    OUTPUT Bar
+    ELIF X is * 3 & 5 Print FooBar
+    OUTPUT FooBar
+    ELSE  X is not * of 3 or 5 Print Qix
+    OUTPUT Qix
 
-I DONT UNDERSTAND THE TASK AND WHAT I MUST DO!?
      */
 }
