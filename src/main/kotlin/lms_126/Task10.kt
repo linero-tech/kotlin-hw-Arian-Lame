@@ -13,7 +13,7 @@ fun task10() {
     Select B: ********@hotmail.com
 
     INPUT Password
-    IF the password is < than 6 characters long set error
+    IF the password is length < than 6 characters long set error
     IF the password is > than 6 characters long continue
     Input  Name
     Input last Name

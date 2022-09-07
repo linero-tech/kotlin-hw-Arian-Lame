@@ -11,6 +11,5 @@ fun task8() {
     OUTPUT FooBar
     ELSE  X is not * of 3 or 5 Print Qix
     OUTPUT Qix
-
      */
 }
