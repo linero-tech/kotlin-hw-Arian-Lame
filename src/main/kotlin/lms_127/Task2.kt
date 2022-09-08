@@ -5,6 +5,9 @@ fun task2() {
     val Name : String = "Arian"
     val Country: String = "Albania"
     val Month: String = "April"
-//    Printnl
+println( "Hello $Name, you are from $Country and you  born in $Month")
 
+}
+fun main(){
+    task2()
 }
