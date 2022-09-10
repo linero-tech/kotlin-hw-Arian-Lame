@@ -3,10 +3,17 @@ package lms_127
 
 fun task1() {
 
-    val Country: String = "Albania"
-    val Capital: String = "Tirana"
-    val Currency: String = "LEK"
-//    Printnl (Country)
-//    Printnl (Capital)
-//    Printnl (Currency)
+    val country: String = "Albania"
+    val capital: String = "Tirane"
+    val currency: String = "LEK"
+    println (country)
+    println (capital)
+    println (currency)
+}
+
+fun main() {
+    task1()
+
+
+
 }
