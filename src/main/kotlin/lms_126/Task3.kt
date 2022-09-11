@@ -4,7 +4,7 @@ fun task3() {
 
     /*
     formula source:
-    https://www.youtube.com/watch?v=cAI_twrP8QE&t=248s
+
 
    INPUT base of triangle
    // In this case base is 14 meters
