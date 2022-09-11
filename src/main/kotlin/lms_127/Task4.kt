@@ -1,14 +1,15 @@
 package lms_127
 
 fun task4(base: Double, height: Double): Double {
-    var base = 5.0
-    var height = 10.0
+    (base * height) / 2
 
-    val areaOfTriangle = (base * height) / 2
+    return (base * height) / 2
+}
+fun main(){
+    val height = 10.0
+    val base = 5.0
+    val a =   task4(base, height)
+    println("result is $a")
 
 
-
-
-
-        return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
 }
