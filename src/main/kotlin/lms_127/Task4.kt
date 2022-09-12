@@ -1,5 +1,7 @@
 package lms_127
-
+/*
+formula: base * height / 2
+ */
 fun task4(base: Double, height: Double): Double {
    val result = base * height / 2
 
@@ -9,7 +11,5 @@ fun task4(base: Double, height: Double): Double {
 }
 fun main(){
     task4(base = 5.0, height = 10.0)
-
-
 
 }

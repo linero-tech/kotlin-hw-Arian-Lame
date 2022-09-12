@@ -1,6 +1,11 @@
 package lms_127
 
 fun task7(sentence: String): Int {
+    val results = sentence.length
+    println(results)
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    return results
+}
+fun main(){
+    task7(sentence = "toString")
 }
