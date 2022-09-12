@@ -2,10 +2,10 @@ package lms_127
 
 fun task2() {
 
-    val Name :String = "Arian"
-    val Country:String = "Albania"
-    val Month:String = "April"
-println( "Hello $Name, you are from $Country and you were born in $Month")
+    val name :String = "Arian"
+    val country:String = "Albania"
+    val month:String = "April"
+println( "Hello $name, you are from $country and you were born in $month")
 
 }
 fun main(){

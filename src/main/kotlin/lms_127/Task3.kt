@@ -1,12 +1,13 @@
 package lms_127
 
-fun task3(radius: Double): Double {
-    val pi = 3.1416
+import kotlin.math.PI
 
-    return pi * radius * radius
+fun task3(radius: Double) {
+    val result = 2 * PI * radius
+    println(result)
 }
-fun main(){
- val a =   task3(2.0)
-    println("result is $a")
 
-}
+
+    fun main() {
+        task3(radius = 2.0)
+    }
