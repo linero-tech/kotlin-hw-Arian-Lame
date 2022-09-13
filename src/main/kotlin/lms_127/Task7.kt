@@ -1,11 +1,11 @@
 package lms_127
 
 fun task7(sentence: String): Int {
-    val results = sentence.length
-    println(results)
+    val result = sentence.length
+    println(result)
 
-    return results
+    return result
 }
 fun main(){
-    task7(sentence = "toString")
+    task7(sentence = "I love GBG")
 }

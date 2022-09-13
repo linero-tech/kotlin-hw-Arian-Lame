@@ -3,7 +3,7 @@ package lms_127
 formula: base1 + base2 * height / 2
  */
 fun task6(base1: Double, base2: Double, height: Double): Double {
-val result = base1 + base2 * height / 2
+val result = (base1 + base2) * height / 2
     println(result)
     return result
 }
