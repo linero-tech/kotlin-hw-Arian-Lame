@@ -17,10 +17,11 @@ fun task10_2(assessments: String): Char {
     return result
 }
 fun task10_3(assessments: String): Char {
-    val result = assessments.length/2
+    val indexInTheMiddle = assessments.length/2
+    val result = assessments[indexInTheMiddle]
         println(result)
 
-        return result.toChar()
+        return result
     }
 fun task10_4(assessments: String): String {
     val result = assessments.substring(0,3)
