@@ -4,7 +4,7 @@ fun task1(a: Int, b: Int): Int {
     var result = 15
 
     if (a < b) {for (number in a..b) {
-        result = number + result
+        result += number
     }
     }
 
