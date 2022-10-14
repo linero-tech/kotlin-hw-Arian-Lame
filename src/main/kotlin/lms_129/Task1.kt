@@ -7,12 +7,8 @@ fun task1(a: Int, b: Int): Int {
         result += number
     }
     }
-
     return result
-
 }
 fun main () {
     println( task1( a = 3, b = 3))
-
-
 }
