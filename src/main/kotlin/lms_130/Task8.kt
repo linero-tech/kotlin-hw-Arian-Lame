@@ -1,6 +1,17 @@
 package lms_130
 
 fun task8(items: List<Int>): List<Int> {
+    val sortedList = items.distinct().sorted()
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val result = if (sortedList.size < 3) {
+        sortedList
+    } else {
+        sortedList.takeLast(3)
+    }
+
+    return result
+}
+
+fun main() {
+    println(task8(listOf(60,9,7,10)))
 }
