@@ -1,6 +1,13 @@
 package lms_130
-
-fun task2(items: List<Int>): Int {
-
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
-}
+// fun task2(items: List<Int>): Int {
+//
+//
+//
+// return
+// }
+//
+//
+// fun main () {
+// println(task2(listOf(1,2,3,4)))
+// }
+//
