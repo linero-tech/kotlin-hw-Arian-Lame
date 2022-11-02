@@ -1,13 +1,17 @@
 package lms_130
-// fun task2(items: List<Int>): Int {
-//
-//
-//
-// return
-// }
-//
-//
-// fun main () {
-// println(task2(listOf(1,2,3,4)))
-// }
-//
+
+fun task2(items: List<Int>): Int {
+    var result = 0
+    for (index in items.indices ) {
+        val number = items[index]
+        if (index % 2 == 0){
+            result += number
+
+        }
+    }
+
+    return result
+}
+fun main (){
+    println(task2(items = listOf(1,2,3,4,5,6,7,8,9)))
+}
