@@ -6,9 +6,9 @@ fun task5(items: List<Int>): List<Int> {
 
     for (index in items.indices){
 
-        val number = index * items[index]
+        var number = index * items.get(index)
 
-        println("$index * ${items[index]} = $number" )
+        println("${index} * ${items[index]} = $number" )
 
         result.add(number)
 
