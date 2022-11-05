@@ -1,3 +1,5 @@
+package lms_130
+
 fun task6(sentence: String): String {
     var result = ""
     for ( index in sentence.indices){
@@ -11,5 +13,5 @@ fun task6(sentence: String): String {
     return result
 }
 fun main (){
-    println(task6(" I like Gothenburg "))
+    println(task6("I like Gothenburg"))
 }
