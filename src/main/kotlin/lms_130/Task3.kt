@@ -16,7 +16,6 @@ fun task3(items: List<Int>): List<Int> {
 
     return result.toList()
 }
-
 fun main () {
     println( task3(items = listOf(1, 1, 1, 2, 2, 3 )))
 }

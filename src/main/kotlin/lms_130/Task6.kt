@@ -20,7 +20,6 @@ fun task6(sentence: String): String {
     }
     return result
 }
-
 fun main() {
     println(task6(sentence = "I like gothenburg"))
 }

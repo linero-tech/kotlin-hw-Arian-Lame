@@ -11,7 +11,6 @@ fun task8(items: List<Int>): List<Int> {
 
     return result
 }
-
 fun main() {
     println(task8(listOf(60,9,7,10)))
 }

@@ -6,6 +6,7 @@ val result = if (items.isNotEmpty()) items.random() else 0
     return result
 
 }
+
 fun main () {
     println(task1(listOf()))
 }

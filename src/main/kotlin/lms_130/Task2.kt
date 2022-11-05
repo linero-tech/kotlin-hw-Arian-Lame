@@ -9,7 +9,6 @@ fun task2(items: List<Int>): Int {
 
         }
     }
-
     return result
 }
 fun main (){

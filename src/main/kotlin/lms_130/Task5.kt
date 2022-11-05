@@ -13,7 +13,6 @@ fun task5(items: List<Int>): List<Int> {
         result.add(number)
 
     }
-
     return result
 }
 fun main (){

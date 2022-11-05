@@ -16,7 +16,6 @@ fun task9(items: List<Int>): List<Int> {
 
 
     return result
-}
-fun main (){
+}fun main (){
     println(task9(items = listOf(5,2,3,4)))
 }

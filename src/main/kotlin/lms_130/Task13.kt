@@ -28,7 +28,7 @@ fun task13_3(customers: List<String>): List<String> {
     val result = mutableListOf<String>()
 
     customerSet. forEach{
-        val (name, rest) = it.split("@")
+        val (_, rest) = it.split("@")
         val (company, extension) = rest.split(".")
         result.add(company)
     }

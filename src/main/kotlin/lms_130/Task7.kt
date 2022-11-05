@@ -10,7 +10,6 @@ fun task7(items: List<Int>): Int {
 
     return result
 }
-
 fun main () {
     println(task7(listOf(10,5,11)))
 }

@@ -10,7 +10,6 @@ fun task4(items: List<Int>, factor: Int): List<Int> {
     }
     return result.toList()
 }
-
 fun main () {
     println(task4(listOf(1,2,4,5,6), factor = 2))
 

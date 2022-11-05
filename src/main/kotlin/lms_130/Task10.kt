@@ -10,10 +10,8 @@ fun task10(items: List<Int>): List<Int> {
             result.add(number * 3)
         }
     }
-
     return result
 }
-
 fun main() {
     println(task10(listOf(1,2,3,4,5)))
 }
