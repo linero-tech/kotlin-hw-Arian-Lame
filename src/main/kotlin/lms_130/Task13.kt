@@ -39,17 +39,11 @@ fun task13_3(customers: List<String>): List<String> {
 
 fun main() {
     val listOfCustomer = listOf(
-        "tgundrey1l@prlog.org",
-        "bgrix1u@apache.org",
-        "mbreakspear1v@wordpress.com",
-        "cdalli1w@ft.com",
-        "rclayborn1x@mtv.com",
-        "rclayborn1x@mtv.com",
-        "jchidlow1y@nasa.gov",
-        "jchidlow1y@nasa.gov",
-        "kovell1z@washingtonpost.com",
-        "kovell1z@washingtonpost.com",
-        "kovell1z@washingtonpost.com"
+        "mary@tv.com",
+        "john@nas.gov",
+        "john@nas.gov",
+        "ema@post.com",
+        "ema@post.com"
     )
 
     println("The customers who purchased from your product: ${task13_1(listOfCustomer)}")
