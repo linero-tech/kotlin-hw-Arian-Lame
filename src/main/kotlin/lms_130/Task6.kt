@@ -3,7 +3,7 @@ fun task6(sentence: String): String {
     for ( index in sentence.indices){
         var letter = sentence[index]
         if (index % 2 == 0 ){
-            letter = letter.toUpperCase()
+            letter = letter.uppercaseChar()
         }
         result += letter
     }
@@ -11,5 +11,5 @@ fun task6(sentence: String): String {
     return result
 }
 fun main (){
-    println(task6("I like Stockholm"))
+    println(task6(" I like Gothenburg "))
 }
