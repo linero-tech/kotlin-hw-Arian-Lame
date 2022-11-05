@@ -4,7 +4,7 @@ fun task6(sentence: String): String {
 
     for((index, letter) in sentence.withIndex()) {
 
-        result += if (index % 2 == 0) {
+        result += if (index % 2==0) {
             letter.uppercaseChar()
         } else {
             letter
@@ -12,7 +12,7 @@ fun task6(sentence: String): String {
     }
 
     sentence.forEachIndexed { index,letter ->
-        result += if (index % 2 == 0) {
+        result += if (index % 2==0) {
             letter.uppercaseChar()
         } else {
             letter
@@ -21,5 +21,5 @@ fun task6(sentence: String): String {
     return result
 }
 fun main() {
-    println(task6(sentence = "I like gothenburg"))
+    println(task6(sentence = " I like Gothenburg "))
 }
