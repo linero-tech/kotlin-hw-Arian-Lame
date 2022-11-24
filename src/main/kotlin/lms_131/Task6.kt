@@ -9,6 +9,7 @@ fun task6(mapa: Map<Int, String>, parameter: String): Map<Int, String> {
     }
     return result
 }
+
 fun main() {
 
     println (
